@@ -1,0 +1,1502 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-02-18 19:37:05",
+    "containerVersion": {
+        "path": "accounts/7407459/containers/12754757/versions/0",
+        "accountId": "7407459",
+        "containerId": "12754757",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/7407459/containers/12754757",
+            "accountId": "7407459",
+            "containerId": "12754757",
+            "name": "General Formula",
+            "publicId": "GTM-NZWL5SQ",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1580772302173",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/7407459/containers/12754757/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "3",
+                "name": "All Sites - Outbound Links",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Outbound Links"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1580772209771",
+                "firingTriggerId": [
+                    "16"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "4",
+                "name": "All Sites - PDF Downloads",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Downloads"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "PDF"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1580772271252",
+                "firingTriggerId": [
+                    "10"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "6",
+                "name": "Cross-Domain - All Link Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Link Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Page: {{Page URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Link: {{Click URL}} - {{Click Text}}"
+                    }
+                ],
+                "fingerprint": "1580772043368",
+                "firingTriggerId": [
+                    "14"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "7",
+                "name": "All Sites - Google Analytics Pageview",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    }
+                ],
+                "fingerprint": "1580772162199",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "8",
+                "name": "Cross-Domain - Adjusted Bounce Rate",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Visit"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "15 seconds"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    }
+                ],
+                "fingerprint": "1580771967214",
+                "firingTriggerId": [
+                    "17"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "9",
+                "name": "All Sites - Click Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "All Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Text: {{Click Text}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Page: {{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1580772107779",
+                "firingTriggerId": [
+                    "18"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "10",
+                "name": "All Sites - Scroll Depth",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Scroll Depth"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Percentage: {{Scroll Depth Threshold}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Page URL: {{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1580772323305",
+                "firingTriggerId": [
+                    "22"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "11",
+                "name": "All sites - Adjusted Bounce Rate",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Visit"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "15 seconds"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    }
+                ],
+                "fingerprint": "1580771944293",
+                "firingTriggerId": [
+                    "17"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "12",
+                "name": "All Sites - All Link Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Link Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Page: {{Page URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Link: {{Click URL}} - {{Click Text}}"
+                    }
+                ],
+                "fingerprint": "1580772004473",
+                "firingTriggerId": [
+                    "14"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "13",
+                "name": "Cross-domain - Click Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "All Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Text: {{Click Text}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Page: {{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1580772089510",
+                "firingTriggerId": [
+                    "18"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "14",
+                "name": "Cross-Domain - Google Analytics Pageview",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    }
+                ],
+                "fingerprint": "1580772136888",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "15",
+                "name": "Cross-Domain - Outbound Links",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Outbound Links"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1580772187000",
+                "firingTriggerId": [
+                    "16"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "16",
+                "name": "Cross-Domain - PDF Downloads",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Downloads"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "PDF"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1580772247308",
+                "firingTriggerId": [
+                    "10"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "17",
+                "name": "Cross-Domain Scroll Depth",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Scroll Depth"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Percentage: {{Scroll Depth Threshold}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Page URL: {{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1580772302173",
+                "firingTriggerId": [
+                    "22"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "32",
+                "name": "Lighthouse",
+                "type": "cvt_12754757_19",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "debug",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "apiKey",
+                        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lhUserId",
+                        "value": "00000000-0xx0-0000-00x0-xxx0000x00x0"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "lhIdentityId",
+                        "value": "us-east-1-xxxxxxxxxxxxxxxxxx"
+                    }
+                ],
+                "fingerprint": "1582054594029",
+                "firingTriggerId": [
+                    "13"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "34",
+                "name": "PolyTweets",
+                "type": "cvt_12754757_21",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "debug",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1582054585210",
+                "firingTriggerId": [
+                    "13"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "10",
+                "name": "PDF Click",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".pdf"
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1566564854480",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "12",
+                "name": "Form Submission",
+                "type": "FORM_SUBMISSION",
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1566564384479",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "13",
+                "name": "Window Load",
+                "type": "WINDOW_LOADED",
+                "fingerprint": "1566564863997",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "14",
+                "name": "All Links",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "."
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1566564562995",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "15",
+                "name": "All Pages Pageview",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "."
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1566564637676",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "16",
+                "name": "All Outbound Links",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "yoursite.org"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1566564749207",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "17",
+                "name": "15 Second Timer",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "15000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "1"
+                },
+                "fingerprint": "1566565488389",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "18",
+                "name": "All Clicks",
+                "type": "CLICK",
+                "fingerprint": "1566565880827",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "22",
+                "name": "Scroll Depth",
+                "type": "SCROLL_DEPTH",
+                "fingerprint": "1567079249949",
+                "parentFolderId": "6",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdUnits",
+                        "value": "PERCENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdsPercent",
+                        "value": "50,75,100"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "verticalThresholdOn",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "triggerStartOption",
+                        "value": "WINDOW_LOAD"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "horizontalThresholdOn",
+                        "value": "false"
+                    }
+                ]
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "1",
+                "name": "Google Analytics Settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-00000-0"
+                    }
+                ],
+                "fingerprint": "1566564957701",
+                "parentFolderId": "7"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "3",
+                "name": "URL",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "URL"
+                    }
+                ],
+                "fingerprint": "1566565450730",
+                "parentFolderId": "7",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "4",
+                "name": "PII Scrubber + Lighthouse Custom Dimension",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function () {\n  // using the customTask Builder by Simo Ahava\n  //\n  // More information about customTask: https://www.simoahava.com/analytics/customtask-the-guide/\n  //\n  // Change the default values for the settings below.\n\n  // clientIdIndex: The Custom Dimension index to where you want to send the visitor's Client ID.\n  // https://bit.ly/2Ms0ZcC  \n  var clientIdIndex = 1;\n\n  // piiRegex: Array of {name, regex} objects, where the regular expression matches a pattern you want to replace with [REDACTED name].\n  // https://bit.ly/2wcJym2\n  var piiRegex = [{\n        name: 'EMAIL',\n        regex: /[^?]{4,}(@|%40)(?!youremail\\.com)[^\\/]{4,}(?:\\.)/gi,\n        group: ''\n      },{\n      name: 'SELF-EMAIL',\n        regex: /[^?]{4,}(@|%40)(?=youremail\\.com)[^\\/]{4,}(?:\\.)/gi,\n        group: ''\n      },{\n        name: 'TEL',\n        regex: /((tel=)|(telephone=)|(phone=)|(mobile=)|(mob=))[\\d\\+\\s][^&\\/\\?]+/gi,\n        group: '$1'\n      },{\n        name: 'NAME',\n        regex: /((firstname=)|(lastname=)|(surname=)|(cons_first_name=)|(cons_last_name=))[^&\\/\\?]+/gi,\n        group: '$1'     \n      },{\n        name: 'PASSWORD',\n        regex: /((password=)|(passwd=)|(pass=))[^&\\/\\?]+/gi,\n        group: '$1'\n      },{\n        name: 'ZIP',\n        regex: /((postcode=)|(zipcode=)|(zip=))[^&\\/\\?]+/gi,\n        group: '$1'\n      }\n    ];\n\n  // DO NOT EDIT ANYTHING BELOW THIS LINE\n  var readFromStorage = function (key) {\n    if (!window.Storage) {\n      // From: https://stackoverflow.com/a/15724300/2367037\n      var value = '; ' + document.cookie;\n      var parts = value.split('; ' + key + '=');\n      if (parts.length === 2) {\n        return parts.pop().split(';').shift();\n      }\n    } else {\n      return window.localStorage.getItem(key);\n    }\n  };\n\n  var writeToStorage = function (key, value, expireDays) {\n    if (!window.Storage) {\n      var expiresDate = new Date();\n      expiresDate.setDate(expiresDate.getDate() + expireDays);\n      document.cookie = key + '=' + value + ';expires=' + expiresDate.toUTCString();\n    } else {\n      window.localStorage.setItem(key, value);\n    }\n  };\n\n  var globalSendHitTaskName   = '_ga_originalSendHitTask';\n\n  return function (customTaskModel) {\n\n    window[globalSendHitTaskName] = window[globalSendHitTaskName] || customTaskModel.get('sendHitTask');\n\n    // clientIdIndex\n    if (typeof clientIdIndex === 'number') {\n      customTaskModel.set('dimension' + clientIdIndex, customTaskModel.get('clientId'));\n    }\n    // /clientIdIndex\n\n    customTaskModel.set('sendHitTask', function (sendHitTaskModel) {\n\n      var originalSendHitTaskModel = sendHitTaskModel,\n          originalSendHitTask      = window[globalSendHitTaskName],\n          canSendHit               = true;\n\n      try {\n\n        // piiRegex\n        if (typeof piiRegex !== 'undefined' && piiRegex.length) {\n          var _pr_hitPayloadParts = sendHitTaskModel.get('hitPayload').split('&');\n          for (var _pr_regexI = 0; _pr_regexI < _pr_hitPayloadParts.length; _pr_regexI++) {\n            var _pr_param = _pr_hitPayloadParts[_pr_regexI].split('=');\n            var _pr_val;\n            try {\n              _pr_val = decodeURIComponent(decodeURIComponent(_pr_param[1]));\n            } catch(e) {\n              _pr_val = decodeURIComponent(_pr_param[1]);\n            }\n            piiRegex.forEach(function(pii) {\n              _pr_val = _pr_val.replace(pii.regex, '[REDACTED ' + pii.name + ']');\n            });\n            _pr_param[1] = encodeURIComponent(_pr_val);\n            _pr_hitPayloadParts[_pr_regexI] = _pr_param.join('=');\n          }\n          sendHitTaskModel.set('hitPayload', _pr_hitPayloadParts.join('&'), true);\n        }\n        // /piiRegex\n\n        if (canSendHit) {\n          originalSendHitTask(sendHitTaskModel);\n        }\n\n      } catch(err) {\n        originalSendHitTask(originalSendHitTaskModel);\n      }\n\n    });\n\n  };\n}"
+                    }
+                ],
+                "fingerprint": "1582052899409",
+                "parentFolderId": "7",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "5",
+                "name": "Cross-Domain GA Property ID",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Page Hostname}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "url"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "UA-"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1580063792027",
+                "parentFolderId": "7",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "6",
+                "name": "Cross-Domain GA Settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "allowLinker"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "autoLinkDomains",
+                        "value": "{{Auto-Link Domains}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{Cross-Domain GA Property ID}}"
+                    }
+                ],
+                "fingerprint": "1580064070168",
+                "parentFolderId": "7"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "7",
+                "name": "Auto-Link Domains",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "list-of-url-domains,separated-by-commas"
+                    }
+                ],
+                "fingerprint": "1580063980726",
+                "parentFolderId": "7",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "8",
+                "name": "Erase Linker Query from URL",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n   var url = window.location.href;\n  if(url.indexOf('_ga') !== -1 && window.history){\n    url = url.split('?')[0];\n    window.history.replaceState(\"state\", \"\", url);\n    return true\n  };\n  return false\n}"
+                    }
+                ],
+                "fingerprint": "1580764307780",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "33",
+                "name": "Custom Dimension - Lighthouse",
+                "type": "cvt_12754757_20",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cdIndex",
+                        "value": "1"
+                    }
+                ],
+                "fingerprint": "1582052484662",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "folderId": "5",
+                "name": "WW Sandbox Tags",
+                "fingerprint": "1566564139872"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "folderId": "6",
+                "name": "WW Sandbox Triggers",
+                "fingerprint": "1566564139872"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "folderId": "7",
+                "name": "WW Sandbox Variables",
+                "fingerprint": "1566564139872"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "FORM_ID",
+                "name": "Form ID"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "SCROLL_DEPTH_THRESHOLD",
+                "name": "Scroll Depth Threshold"
+            }
+        ],
+        "fingerprint": "1582054625081",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/7407459/containers/12754757/versions/0?apiLink=version",
+        "customTemplate": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "templateId": "19",
+                "name": "Lighthouse by Whole Whale",
+                "fingerprint": "1567036853266",
+                "templateData": "___INFO___\n\n{\n  \"displayName\": \"Lighthouse by Whole Whale\",\n  \"description\": \"Aid in the installation of Lighthouse on your site through GTM\",\n  \"securityGroups\": [],\n  \"id\": \"cvt_temp_public_id\",\n  \"type\": \"TAG\",\n  \"version\": 1,\n  \"brand\": {\n    \"thumbnail\": \"data:image/png;base64,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\",\n    \"displayName\": \"\",\n    \"id\": \"brand_dummy\"\n  },\n  \"containerContexts\": [\"WEB\"]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"notSetText\": \"Cannot be empty\",\n    \"help\": \"This is the long three section number at the beginning of the script after LH_USER_ID. It looks like: 00000000-0xx0-0000-00x0-xxx0000x00x0\",\n    \"valueValidators\": [{\"type\": \"NON_EMPTY\"}],\n    \"displayName\": \"Lighthouse User ID\",\n    \"simpleValueType\": true,\n    \"name\": \"lhUserId\",\n    \"type\": \"TEXT\"\n  },\n  {\n    \"notSetText\": \"Cannot be empty\",\n    \"help\": \"This is the long three section of numbers and letters at the beginning of the script after LH_IDENTITY_ID and it starts with us-east-1.\",\n    \"valueValidators\": [{\"type\": \"NON_EMPTY\"}],\n    \"displayName\": \"Lighthouse Identity ID\",\n    \"simpleValueType\": true,\n    \"name\": \"lhIdentityId\",\n    \"type\": \"TEXT\"\n  },\n  {\n    \"notSetText\": \"Cannot be empty\",\n    \"help\": \"this is the succession of numbers and letters after API_KEY.\",\n    \"valueValidators\": [{\"type\": \"NON_EMPTY\"}],\n    \"displayName\": \"API key\",\n    \"simpleValueType\": true,\n    \"name\": \"apiKey\",\n    \"type\": \"TEXT\"\n  },\n  {\n    \"simpleValueType\": true,\n    \"name\": \"debug\",\n    \"checkboxText\": \"Log Debug Messages to Console\",\n    \"type\": \"CHECKBOX\"\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\n// required apis\nconst logToConsole = require('logToConsole');\nconst injectScript = require('injectScript');\nconst queryPermission = require('queryPermission');\nconst inWindow = require('callInWindow');\n\nconst lhUid = data.lhUserId;\nconst lhIdId = data.lhIdentityId;\nconst key = data.apiKey;\nconst source = 'https://track.getlighthouse.io/track.js';\n// If the user chose to log debug output, initialize the logging method\nconst log = data.debug ? logToConsole : (() => {});\n// If the script loaded successfully, log a message and signal success\nconst onSuccess = () => {\n  log('Lighthouse: Script loaded successfully.');\n    inWindow('wwTrack', lhUid, lhIdId, key);\n  data.gtmOnSuccess();\n};\n// If the script fails to load, log a message and signal failure\nconst onFailure = () => {\n  log('Lighthouse: Script load failed.');\n  data.gtmOnFailure();\n};\n\nif (queryPermission('inject_script', source)) {\n  injectScript(source, onSuccess, onFailure);\n} else {\n  log('Lighthouse: Script load failed due to permissions mismatch.');\n  data.gtmOnFailure();\n}\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [{\n        \"value\": {\n          \"string\": \"debug\",\n          \"type\": 1\n        },\n        \"key\": \"environments\"\n      }],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"logging\"\n      }\n    }\n  },\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [{\n        \"value\": {\n          \"listItem\": [{\n            \"mapValue\": [\n              {\n                \"string\": \"wwTrack\",\n                \"type\": 1\n              },\n              {\n                \"boolean\": true,\n                \"type\": 8\n              },\n              {\n                \"boolean\": true,\n                \"type\": 8\n              },\n              {\n                \"boolean\": true,\n                \"type\": 8\n              }\n            ],\n            \"mapKey\": [\n              {\n                \"string\": \"key\",\n                \"type\": 1\n              },\n              {\n                \"string\": \"read\",\n                \"type\": 1\n              },\n              {\n                \"string\": \"write\",\n                \"type\": 1\n              },\n              {\n                \"string\": \"execute\",\n                \"type\": 1\n              }\n            ],\n            \"type\": 3\n          }],\n          \"type\": 2\n        },\n        \"key\": \"keys\"\n      }],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"access_globals\"\n      }\n    },\n    \"clientAnnotations\": {\"isEditedByUser\": true}\n  },\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"inject_script\"\n      }\n    }\n  }\n]\n\n\n___NOTES___\n\n\n\n\n"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "templateId": "20",
+                "name": "Lighthouse Custom Dimension",
+                "fingerprint": "1566572176585",
+                "templateData": "___INFO___\n\n{\n  \"displayName\": \"Lighthouse Custom Dimension\",\n  \"description\": \"This variable returns the user id from GA tracking that is used in Lighthouse. Using customTaks in the universal analytics pageview tag assign it in the fields to set section.\",\n  \"securityGroups\": [],\n  \"id\": \"cvt_temp_public_id\",\n  \"type\": \"MACRO\",\n  \"version\": 1,\n  \"containerContexts\": [\"WEB\"]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[{\n  \"help\": \"You will find this number next to the custom dimension on your GA account under the admin settings \\u003e property \\u003e Custom Definitions \\u003e Custom Dimensions.\\nIf you do not have it already, you can create it there and paste it\\u0027s index number here\",\n  \"valueValidators\": [\n    {\"type\": \"NON_EMPTY\"},\n    {\"type\": \"NUMBER\"}\n  ],\n  \"displayName\": \"Custom Dimension Index number\",\n  \"defaultValue\": 1,\n  \"simpleValueType\": true,\n  \"name\": \"cdIndex\",\n  \"type\": \"TEXT\"\n}]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst cdi = data.cdIndex;\n\nreturn (model) => model.set('dimension' + cdi, model.get('clientId'));\n \n\n\n___NOTES___\n\n\n\n\n"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "templateId": "21",
+                "name": "Politweets by Whole Whale",
+                "fingerprint": "1567037722594",
+                "templateData": "___INFO___\n\n{\n  \"displayName\": \"Politweets by Whole Whale\",\n  \"description\": \"This is the script code that will allow your widget to populate with your campaign. You only need to place the container that has the campaign id wherever you will like within your page.\",\n  \"securityGroups\": [],\n  \"id\": \"cvt_temp_public_id\",\n  \"type\": \"TAG\",\n  \"version\": 1,\n  \"brand\": {\n    \"thumbnail\": \"data:image/png;base64,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\",\n    \"displayName\": \"\",\n    \"id\": \"brand_dummy\"\n  },\n  \"containerContexts\": [\"WEB\"]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[{\n  \"simpleValueType\": true,\n  \"name\": \"debug\",\n  \"checkboxText\": \"Log Debug Messages to Console\",\n  \"type\": \"CHECKBOX\"\n}]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst logToConsole = require('logToConsole');\nconst injectScript = require('injectScript');\nconst queryPermission = require('queryPermission');\n\n// If the user chose to log debug output, initialize the logging method\nconst log = data.debug ? logToConsole : (() => {});\nconst script = \"https://app.politweets.org/code/Widget.2018.9.min.js\";\n\nconst onSuccess = () => {\n  log('Politweets: Script loaded successfully.');\n  data.gtmOnSuccess();\n};\n\nconst onFailure = () => {\n  log('Politweets: Script load failed.');\n  data.gtmOnFailure();\n};\n\nif (queryPermission('inject_script', script)) {\n  injectScript(script, onSuccess, onFailure);\n} else {\n  log('Politweets: Script load failed due to permissions mismatch.');\n  data.gtmOnFailure();\n}\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [{\n        \"value\": {\n          \"string\": \"debug\",\n          \"type\": 1\n        },\n        \"key\": \"environments\"\n      }],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"logging\"\n      }\n    }\n  },\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [{\n        \"value\": {\n          \"listItem\": [{\n            \"string\": \"https://*.politweets.org/*\",\n            \"type\": 1\n          }],\n          \"type\": 2\n        },\n        \"key\": \"urls\"\n      }],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"inject_script\"\n      }\n    },\n    \"clientAnnotations\": {\"isEditedByUser\": true}\n  }\n]\n\n\n___NOTES___\n\n\n\n\n"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "templateId": "24",
+                "name": "Scroll Depth on HTML",
+                "fingerprint": "1567568055989",
+                "templateData": "___INFO___\n\n{\n  \"displayName\": \"Scroll Depth on HTML\",\n  \"description\": \"\",\n  \"securityGroups\": [],\n  \"id\": \"cvt_temp_public_id\",\n  \"type\": \"TAG\",\n  \"version\": 1,\n  \"brand\": {\n    \"displayName\": \"\",\n    \"id\": \"brand_dummy\"\n  },\n  \"containerContexts\": [\"WEB\"]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\n// Enter your template code here.\nconst log2Console = require('logToConsole');\nconst copy = require('copyFromWindow');\nconst math = require('Math');\nconst createQueue = require('createQueue');\nconst callInWindow = require('callInWindow');\nconst makeInteger = require('makeInteger');\nconst ciw = require('callInWindow');\n\nconst onScroll = () => {\n  \n  const doc = copy('document');\n  const dlp = createQueue('dataLayer');\n\n  const height = math.max(doc.body.scrollHeight, doc.body.offsetHeight, doc.documentElement.clientHeight, doc.documentElement.scrollHeight, doc.documentElement.offsetHeight);\n  let cache = [];\n\n  const calcHeight = (h) => {\n    return {\n      '25%': makeInteger(h * 0.25),\n      '50%': makeInteger(h * 0.50),\n      '75%': makeInteger(h * 0.75),\n      '100%': h -1\n    };\n  };\n  \n  const scrollY = copy('scrollY');\n  const innerH = copy('innerHeight');\n  const dist = scrollY + innerH;\n  const marks = calcHeight(height);\n  \n  if(cache.length >= 4){\n    return;\n  } else {\n    let keys = ciw('Object.keys', marks);\n    for(let i=0; i<keys.length; i++){\n      if(dist === marks[keys[i]]){\n        cache.push(keys[i]);\n        dlp({\n          'event': 'Scroll Distance', \n          'scrollCategory': 'Scroll Depth', \n          'scrollAction': 'Percent:'+ keys[i], \n          'scrollLabel': dist\n        });\n      }\n    }\n    //for(let mark of marks){\n    //  if(dist === marks[mark]){\n      //  cache.push(mark);\n       // dlp({\n         // 'event': 'Scroll Distance', \n         // 'scrollCategory': 'Scroll Depth', \n         // 'scrollAction': 'Percent:'+ mark, \n         // 'scrollLabel': dist\n        //});\n      //}\n    //}\n  }\n};\n// Call data.gtmOnSuccess when the tag is finished.\ncallInWindow('scroll', onScroll);\ndata.gtmOnSuccess();\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [{\n        \"value\": {\n          \"string\": \"debug\",\n          \"type\": 1\n        },\n        \"key\": \"environments\"\n      }],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"logging\"\n      }\n    }\n  },\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [{\n        \"value\": {\n          \"listItem\": [\n            {\n              \"mapValue\": [\n                {\n                  \"string\": \"dataLayer\",\n                  \"type\": 1\n                },\n                {\n                  \"boolean\": true,\n                  \"type\": 8\n                },\n                {\n                  \"boolean\": true,\n                  \"type\": 8\n                },\n                {\n                  \"boolean\": true,\n                  \"type\": 8\n                }\n              ],\n              \"mapKey\": [\n                {\n                  \"string\": \"key\",\n                  \"type\": 1\n                },\n                {\n                  \"string\": \"read\",\n                  \"type\": 1\n                },\n                {\n                  \"string\": \"write\",\n                  \"type\": 1\n                },\n                {\n                  \"string\": \"execute\",\n                  \"type\": 1\n                }\n              ],\n              \"type\": 3\n            },\n            {\n              \"mapValue\": [\n                {\n                  \"string\": \"onScroll\",\n                  \"type\": 1\n                },\n                {\n                  \"boolean\": true,\n                  \"type\": 8\n                },\n                {\n                  \"boolean\": true,\n                  \"type\": 8\n                },\n                {\n                  \"boolean\": true,\n                  \"type\": 8\n                }\n              ],\n              \"mapKey\": [\n                {\n                  \"string\": \"key\",\n                  \"type\": 1\n                },\n                {\n                  \"string\": \"read\",\n                  \"type\": 1\n                },\n                {\n                  \"string\": \"write\",\n                  \"type\": 1\n                },\n                {\n                  \"string\": \"execute\",\n                  \"type\": 1\n                }\n              ],\n              \"type\": 3\n            }\n          ],\n          \"type\": 2\n        },\n        \"key\": \"keys\"\n      }],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"access_globals\"\n      }\n    },\n    \"clientAnnotations\": {\"isEditedByUser\": true}\n  }\n]\n\n\n___NOTES___\n\n\n\n\n"
+            }
+        ]
+    }
+}
