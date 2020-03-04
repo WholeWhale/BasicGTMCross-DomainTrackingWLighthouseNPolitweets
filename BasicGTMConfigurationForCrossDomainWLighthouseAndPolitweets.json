@@ -1140,6 +1140,26 @@
                         "value": "false"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "customTask"
+                                    },{
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{PII Scrubber + Lighthouse Custom Dimension}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "BOOLEAN",
                         "key": "useHashAutoLink",
                         "value": "false"
@@ -1288,6 +1308,20 @@
                                         "type": "TEMPLATE",
                                         "key": "value",
                                         "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "customTask"
+                                    },{
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{PII Scrubber + Lighthouse Custom Dimension}}"
                                     }
                                 ]
                             }
